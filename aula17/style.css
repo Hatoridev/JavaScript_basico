@@ -1,0 +1,66 @@
+/* Estilos gerais para a página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #2196F3; /* Cor de fundo azul */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Estilo da seção do formulário */
+.form-section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o input e botão */
+input[type="number"] {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049; /* Cor mais escura quando o botão é clicado */
+}
+
+/* Estilo para a exibição do resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
