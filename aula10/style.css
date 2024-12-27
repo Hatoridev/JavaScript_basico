@@ -1,0 +1,38 @@
+/* Reseta a margem e o preenchimento de todos os elementos para garantir consistência no layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte para Arial */
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor do texto em cinza escuro */
+    padding: 20px; /* Espaçamento interno da página */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto em branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Cantos arredondados */
+}
+
+/* Estilo para o resultado da operação de divisão */
+h2 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilo para o parágrafo que exibe o resultado */
+#resultado {
+    font-size: 20px; /* Tamanho da fonte do resultado */
+    color: #4CAF50; /* Cor do texto em verde */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
