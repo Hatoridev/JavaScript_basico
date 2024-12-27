@@ -1,0 +1,52 @@
+/* Define o estilo geral do corpo */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  margin: 0; /* Remove as margens padrão */
+  padding: 0; /* Remove os paddings padrão */
+  background-color: #f8f9fa; /* Cor de fundo clara */
+  color: #333; /* Cor padrão do texto */
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #007bff; /* Fundo azul */
+  color: #fff; /* Texto branco */
+  padding: 15px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo principal */
+main {
+  padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo da lista */
+ul {
+  margin: 20px 0; /* Margem superior e inferior */
+  padding-left: 20px; /* Espaçamento à esquerda */
+}
+
+/* Estilo do botão */
+button {
+  background-color: #007bff; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  border: none; /* Remove a borda */
+  padding: 10px 15px; /* Espaçamento interno */
+  border-radius: 5px; /* Arredonda os cantos */
+  cursor: pointer; /* Adiciona um cursor de "mão" */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo do botão ao passar o mouse */
+button:hover {
+  background-color: #0056b3; /* Altera a cor ao passar o mouse */
+}
+
+/* Estilo do rodapé */
+footer {
+  text-align: center; /* Centraliza o texto */
+  padding: 10px; /* Espaçamento interno */
+  background-color: #343a40; /* Cor de fundo escura */
+  color: #fff; /* Cor do texto branca */
+}
+
