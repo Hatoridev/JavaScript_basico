@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies, DOM Storage e DOM APIs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cookies, DOM Storage e DOM APIs</h1>
+        <p>Exemplo sobre o uso de Cookies, DOM Storage API e as principais APIs do DOM e HTML5.</p>
+    </header>
+
+    <main>
+        <!-- Seção para cookies -->
+        <section>
+            <h2>Cookies</h2>
+            <input type="text" id="cookieName" placeholder="Nome do Cookie">
+            <input type="text" id="cookieValue" placeholder="Valor do Cookie">
+            <button onclick="setCookie()">Salvar Cookie</button>
+            <button onclick="getCookie()">Obter Cookie</button>
+            <button onclick="deleteCookie()">Deletar Cookie</button>
+            <p id="cookieResult"></p>
+        </section>
+
+        <!-- Seção para DOM Storage -->
+        <section>
+            <h2>DOM Storage (Local Storage e Session Storage)</h2>
+            <input type="text" id="storageKey" placeholder="Chave">
+            <input type="text" id="storageValue" placeholder="Valor">
+            <button onclick="setLocalStorage()">Salvar no LocalStorage</button>
+            <button onclick="getLocalStorage()">Obter do LocalStorage</button>
+            <button onclick="deleteLocalStorage()">Deletar do LocalStorage</button>
+            <button onclick="setSessionStorage()">Salvar no SessionStorage</button>
+            <button onclick="getSessionStorage()">Obter do SessionStorage</button>
+            <button onclick="deleteSessionStorage()">Deletar do SessionStorage</button>
+            <p id="storageResult"></p>
+        </section>
+
+        <!-- Seção para Manipulação de DOM -->
+        <section>
+            <h2>Manipulação de DOM</h2>
+            <button onclick="changeTextContent()">Alterar Texto</button>
+            <button onclick="changeBackgroundColor()">Alterar Cor de Fundo</button>
+            <button onclick="addElement()">Adicionar Elemento</button>
+            <div id="textExample">Texto Original</div>
+            <div id="elementExample"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
