@@ -1,6 +1,6 @@
 # JavaScript_basico
 
-This repository contains small introductory examples for learning JavaScript, covering various topics such as variables, loops, functions, DOM manipulation, and more.
+Repository with small examples introducing the programming language and web development in JavaScript, basic level.
 
 ## How to Run
 
