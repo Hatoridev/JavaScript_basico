@@ -1,0 +1,3 @@
+Este é um arquivo de texto simples utilizado para demonstrar o carregamento de conteúdo via AJAX.
+Ele contém informações gerais que são carregadas para a página HTML.
+

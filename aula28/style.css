@@ -1,0 +1,50 @@
+/* Estilo básico para o layout */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão da página */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Adiciona um espaçamento interno à página */
+}
+
+/* Estilo para cabeçalho */
+header {
+    background-color: #007BFF; /* Cor de fundo azul para o cabeçalho */
+    color: white; /* Cor do texto do cabeçalho em branco */
+    padding: 20px; /* Adiciona um espaçamento interno no cabeçalho */
+    border-radius: 8px; /* Bordas arredondadas para o cabeçalho */
+    margin-bottom: 30px; /* Espaçamento inferior entre o cabeçalho e o conteúdo abaixo */
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #28a745; /* Cor de fundo verde para os botões */
+    color: white; /* Cor do texto dos botões em branco */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Bordas arredondadas para os botões */
+    cursor: pointer; /* Altera o cursor para pointer quando passa sobre o botão */
+    margin: 10px; /* Espaçamento entre os botões */
+}
+
+/* Efeito de hover nos botões */
+button:hover {
+    background-color: #218838; /* Cor de fundo mais escura quando o botão é hover */
+}
+
+/* Estilo para as seções */
+section {
+    margin-bottom: 30px; /* Espaçamento inferior entre as seções */
+}
+
+h2 {
+    font-size: 22px; /* Tamanho da fonte para o título da seção */
+    color: #007BFF; /* Cor azul para os títulos das seções */
+}
+
+/* Estilo para o texto do exemplo */
+#output, #ajaxResult, #proxyResult {
+    font-size: 18px; /* Tamanho da fonte para o texto de resultado */
+    margin-top: 20px; /* Espaçamento superior */
+    color: #333; /* Cor do texto */
+}
+

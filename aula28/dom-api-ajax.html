@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna o site responsivo -->
+    <title>DOM Core API e AJAX</title> <!-- Título da página exibido no navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Referência ao arquivo de estilo externo (CSS) -->
+</head>
+<body>
+    <header>
+        <h1>DOM Core API e AJAX</h1> <!-- Cabeçalho com o título principal da página -->
+        <p>Exploração de manipulação de DOM, AJAX e como acessar diversos formatos de dados.</p> <!-- Descrição do conteúdo da página -->
+    </header>
+
+    <main>
+        <!-- Seção para manipulação de nós e navegação na árvore DOM -->
+        <section>
+            <h2>Manipulação de Nós e Navegação na Árvore DOM</h2> <!-- Título da seção -->
+            <button onclick="addNewElement()">Adicionar Novo Elemento</button> <!-- Botão que chama a função para adicionar um novo elemento -->
+            <button onclick="removeElement()">Remover Elemento</button> <!-- Botão que chama a função para remover um elemento -->
+            <div id="parentElement"> <!-- Elemento div onde os novos elementos serão adicionados -->
+                <p>Este é um parágrafo dentro do elemento pai.</p> <!-- Parágrafo dentro de parentElement -->
+            </div>
+            <p id="output"></p> <!-- Exibe a mensagem de status após as ações de manipulação -->
+        </section>
+
+        <!-- Seção para AJAX e carregamento de dados -->
+        <section>
+            <h2>AJAX: Carregar Dados Externos</h2> <!-- Título da seção -->
+            <button onclick="loadData()">Carregar Dados de Arquivo TXT</button> <!-- Botão que chama a função para carregar um arquivo TXT -->
+            <button onclick="loadXMLData()">Carregar Dados XML</button> <!-- Botão que chama a função para carregar um arquivo XML -->
+            <button onclick="loadHTMLData()">Carregar Dados HTML</button> <!-- Botão que chama a função para carregar um arquivo HTML -->
+            <button onclick="loadJSONData()">Carregar Dados JSON</button> <!-- Botão que chama a função para carregar um arquivo JSON -->
+            <p id="ajaxResult"></p> <!-- Exibe os resultados da requisição AJAX -->
+        </section>
+
+        <!-- Seção para Cross Browser e Proxy -->
+        <section>
+            <h2>AJAX Cross Browser e Proxy</h2> <!-- Título da seção -->
+            <button onclick="crossBrowserRequest()">Requisição AJAX (Cross Browser)</button> <!-- Botão para uma requisição AJAX compatível com todos os navegadores -->
+            <p id="proxyResult"></p> <!-- Exibe o resultado da requisição Cross Browser -->
+        </section>
+    </main>
+
+    <script src="script.js"></script> <!-- Referência ao arquivo de script externo (JavaScript) -->
+</body>
+</html>
+
