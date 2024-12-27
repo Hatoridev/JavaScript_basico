@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definindo a codificação do documento como UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Tornando a página responsiva para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página -->
+    <title>Seleção de Poltronas</title>
+    <!-- Link para o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página com título e descrição -->
+    <header>
+        <h1>Seleção de Poltronas</h1>
+        <p>Selecione o assunto de interesse e depois as poltronas disponíveis.</p>
+    </header>
+
+    <!-- Seção principal que contém o formulário de seleção de poltronas -->
+    <main>
+        <section class="container">
+            <h2>Escolha seu assunto</h2>
+            <!-- Select dropdown para escolher o assunto -->
+            <select id="assuntoSelect">
+                <option value="tecnologia">Tecnologia</option>
+                <option value="programacao">Programação</option>
+                <option value="musica">Música</option>
+                <option value="cinema">Cinema</option>
+            </select>
+
+            <!-- Botão que chama a função de seleção de poltronas -->
+            <button onclick="selecionarPoltrona()">Selecionar Poltrona</button>
+
+            <!-- Título para as poltronas disponíveis -->
+            <h3>Poltronas Disponíveis</h3>
+            <!-- Aqui as poltronas serão exibidas dinamicamente -->
+            <div id="poltronas"></div>
+        </section>
+    </main>
+
+    <!-- Link para o arquivo JavaScript que contém a lógica -->
+    <script src="script.js"></script>
+</body>
+</html>
+

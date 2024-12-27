@@ -1,0 +1,76 @@
+/* Estilos básicos para a página */
+* {
+    margin: 0; /* Remove margens padrões */
+    padding: 0; /* Remove o preenchimento padrão */
+    box-sizing: border-box; /* Inclui o preenchimento e borda no cálculo do tamanho total do elemento */
+}
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte da página */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    text-align: center; /* Alinha o conteúdo ao centro */
+    padding: 20px; /* Adiciona espaçamento interno ao redor do conteúdo */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: white; /* Cor do texto em branco */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border-radius: 10px; /* Arredonda os cantos */
+}
+
+/* Estilos para o conteúdo principal da página */
+.container {
+    margin-top: 30px; /* Espaço superior */
+    background-color: white; /* Cor de fundo branca */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+/* Estilos para o botão */
+button {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Cor do texto em branco */
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Arredonda os cantos */
+    cursor: pointer; /* Mostra o cursor como mãozinha */
+    margin-top: 10px; /* Espaço superior */
+}
+
+/* Altera a cor do botão quando o mouse passa por cima */
+button:hover {
+    background-color: #218838; /* Cor de fundo mais escura */
+}
+
+/* Estilos para o título das poltronas */
+h3 {
+    margin-top: 20px; /* Espaço superior */
+    font-size: 20px; /* Define o tamanho da fonte */
+}
+
+/* Estilos para o container de poltronas */
+#poltronas {
+    margin-top: 20px; /* Espaço superior */
+}
+
+/* Estilos para as poltronas */
+.poltrona {
+    display: inline-block; /* Exibe as poltronas em linha */
+    width: 50px; /* Largura fixa para as poltronas */
+    height: 50px; /* Altura fixa para as poltronas */
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: white; /* Cor do texto em branco */
+    border-radius: 5px; /* Arredonda os cantos */
+    margin: 10px; /* Adiciona margem ao redor da poltrona */
+    cursor: pointer; /* Cursor como mãozinha ao passar o mouse */
+}
+
+/* Estilo para as poltronas marcadas */
+.poltrona.marcada {
+    background-color: #28a745; /* Cor verde quando marcada */
+}
+
