@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres da página -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade para dispositivos móveis -->
+  <title>JavaScript Aula03 - Eventos</title> <!-- Título da página -->
+  <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo de estilos (CSS) -->
+  <script src="script.js" defer></script> <!-- Link para o arquivo JavaScript que manipula os eventos -->
+</head>
+<body>
+  <div id="container">
+    <h1>Trabalhando com Eventos em JavaScript</h1> <!-- Título principal da página -->
+    <p>Clique nos botões abaixo para interagir com o evento:</p> <!-- Texto explicativo -->
+
+    <!-- Imagem da lâmpada (inicialmente apagada) -->
+    <img id="lampada" src="https://images.app.goo.gl/zCwz36CLvioknpP87" alt="Lâmpada apagada" />
+
+    <div id="buttons">
+      <!-- Botões para ligar e desligar a lâmpada -->
+      <button id="btnLigar">Ligar</button>
+      <button id="btnDesligar">Desligar</button>
+    </div>
+
+    <section>
+      <h2>O que são eventos?</h2>
+      <p>
+        Eventos são ações ou ocorrências que acontecem no navegador, como cliques, movimento do mouse, rolagem de página e muito mais.
+        Podemos usar JavaScript para "ouvir" esses eventos e executar funções específicas quando eles acontecem.
+      </p>
+      <h3>Exemplos de eventos comuns:</h3>
+      <ul>
+        <li><strong>click</strong>: Quando o usuário clica em um elemento.</li>
+        <li><strong>mouseover</strong>: Quando o mouse passa por cima de um elemento.</li>
+        <li><strong>keydown</strong>: Quando uma tecla é pressionada.</li>
+        <li><strong>load</strong>: Quando a página ou um elemento é carregado.</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
+

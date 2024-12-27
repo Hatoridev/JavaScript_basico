@@ -1,0 +1,41 @@
+/* Estilo geral do corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Fonte utilizada */
+  background-color: #000; /* Cor de fundo preta */
+  color: #fff; /* Cor do texto branca */
+  text-align: center; /* Centraliza o texto na tela */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo do contêiner que envolve todo o conteúdo */
+#container {
+  margin: 20px auto; /* Espaçamento e centralização do conteúdo */
+  width: 80%; /* Largura do contêiner */
+  max-width: 600px; /* Largura máxima */
+}
+
+/* Estilo da imagem da lâmpada */
+#lampada {
+  display: block;
+  margin: 20px auto; /* Centraliza a imagem */
+  width: 150px; /* Define o tamanho da imagem */
+}
+
+/* Estilo dos botões */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo do botão ao passar o mouse */
+button:hover {
+  background-color: #0056b3;
+}
+
