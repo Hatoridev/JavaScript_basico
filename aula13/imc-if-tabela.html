@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Tornando a página responsiva -->
+    <title>Cálculo do IMC com Estrutura If e Tabela</title>
+    <link rel="stylesheet" href="style.css"> <!-- Conecta o arquivo CSS para estilização da página -->
+</head>
+<body>
+
+    <header>
+        <h1>Cálculo do IMC - Estrutura If e Tabela</h1> <!-- Título principal da página -->
+        <p>Informe seu peso e altura para calcular seu IMC e ver a classificação.</p> <!-- Subtítulo -->
+    </header>
+
+    <main class="container"> <!-- Divisão principal do conteúdo, utilizando flexbox -->
+        <section class="form-section">
+            <form id="formulario"> <!-- Formulário para entrada de dados -->
+                <label for="kilos">Kilos:</label> <!-- Rótulo para o campo de peso -->
+                <input type="number" id="kilos" name="kilos" placeholder="Informe seu peso" required><br> <!-- Campo para inserir o peso -->
+
+                <label for="metros">Metros:</label> <!-- Rótulo para o campo de metros -->
+                <input type="number" id="metros" name="metros" placeholder="Informe a altura em metros" step="0.01" required><br> <!-- Campo para inserir os metros da altura -->
+
+                <label for="centimetros">Centímetros:</label> <!-- Rótulo para o campo de centímetros -->
+                <input type="number" id="centimetros" name="centimetros" placeholder="Informe a altura em centímetros" required><br> <!-- Campo para inserir os centímetros da altura -->
+
+                <label for="imc">IMC:</label> <!-- Rótulo para exibir o IMC calculado -->
+                <input type="text" id="imc" name="imc" readonly><br> <!-- Campo para exibir o IMC (somente leitura) -->
+
+                <button type="button" onclick="calcularIMC()">Calcular</button> <!-- Botão que chama a função JavaScript para calcular o IMC -->
+            </form>
+
+            <div id="resultado"></div> <!-- Aqui será exibido o resultado do IMC com a classificação -->
+        </section>
+
+        <section class="tabela-section">
+            <h2>Tabela de Classificação de IMC</h2> <!-- Título para a tabela -->
+            <table> <!-- Tabela que contém a classificação do IMC -->
+                <thead>
+                    <tr>
+                        <th>Faixa de IMC</th> <!-- Cabeçalho da coluna de Faixa de IMC -->
+                        <th>Classificação</th> <!-- Cabeçalho da coluna de Classificação -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Abaixo de 20</td> <!-- Faixa de IMC -->
+                        <td>Abaixo do Peso</td> <!-- Classificação para IMC abaixo de 20 -->
+                    </tr>
+                    <tr>
+                        <td>20 a 25</td> <!-- Faixa de IMC -->
+                        <td>Peso Ideal</td> <!-- Classificação para IMC entre 20 e 25 -->
+                    </tr>
+                    <tr>
+                        <td>25 a 30</td> <!-- Faixa de IMC -->
+                        <td>Sobrepeso</td> <!-- Classificação para IMC entre 25 e 30 -->
+                    </tr>
+                    <tr>
+                        <td>30 a 35</td> <!-- Faixa de IMC -->
+                        <td>Obesidade Moderada</td> <!-- Classificação para IMC entre 30 e 35 -->
+                    </tr>
+                    <tr>
+                        <td>35 a 40</td> <!-- Faixa de IMC -->
+                        <td>Obesidade Severa</td> <!-- Classificação para IMC entre 35 e 40 -->
+                    </tr>
+                    <tr>
+                        <td>40 a 50</td> <!-- Faixa de IMC -->
+                        <td>Obesidade Mórbida</td> <!-- Classificação para IMC entre 40 e 50 -->
+                    </tr>
+                    <tr>
+                        <td>Acima de 50</td> <!-- Faixa de IMC -->
+                        <td>Super Obesidade</td> <!-- Classificação para IMC acima de 50 -->
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="script.js"></script> <!-- Conecta o arquivo JavaScript que vai executar a lógica de cálculo do IMC -->
+</body>
+</html>
+

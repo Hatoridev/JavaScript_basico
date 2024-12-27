@@ -1,0 +1,98 @@
+/* Estilos gerais para a página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Define a fonte padrão para o corpo da página */
+    background-color: #f0f0f0; /* Cor de fundo suave para a página */
+    text-align: center; /* Centraliza o texto da página */
+    padding: 20px; /* Espaçamento ao redor do conteúdo */
+}
+
+header {
+    background-color: #2196F3; /* Cor de fundo azul para o cabeçalho */
+    color: white; /* Texto branco no cabeçalho */
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+form {
+    background-color: #ffffff; /* Cor de fundo branca para o formulário */
+    padding: 20px; /* Espaçamento interno do formulário */
+    margin-top: 20px; /* Espaçamento superior */
+    border-radius: 8px; /* Bordas arredondadas do formulário */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do formulário */
+    display: inline-block; /* Faz o formulário ocupar apenas o necessário */
+}
+
+input {
+    padding: 10px; /* Espaçamento interno dos campos de input */
+    margin: 10px 0; /* Espaçamento superior e inferior nos campos */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 2px solid #2196F3; /* Borda azul nos campos de input */
+    border-radius: 4px; /* Bordas arredondadas nos campos */
+}
+
+button {
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte no botão */
+    border-radius: 4px; /* Bordas arredondadas do botão */
+    background-color: #2196F3; /* Cor de fundo azul para o botão */
+    color: white; /* Texto branco no botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+button:hover {
+    background-color: #1976D2; /* Cor mais escura quando o botão é clicado */
+}
+
+#resultado {
+    margin-top: 20px; /* Espaçamento superior */
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Container com a divisão de formulário e tabela */
+.container {
+    display: flex; /* Usa flexbox para alinhar os elementos ao lado */
+    justify-content: space-around; /* Espaça igualmente os elementos */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.form-section {
+    width: 45%; /* Define a largura da seção do formulário */
+}
+
+.tabela-section {
+    width: 45%; /* Define a largura da seção da tabela */
+    background-color: #ffffff; /* Cor de fundo branca para a seção da tabela */
+    padding: 20px; /* Espaçamento interno da seção da tabela */
+    border-radius: 8px; /* Bordas arredondadas na seção da tabela */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor da tabela */
+}
+
+table {
+    width: 100%; /* Tabela ocupa 100% da largura disponível */
+    border-collapse: collapse; /* Remove espaçamento entre as células */
+    margin-top: 20px; /* Espaçamento superior da tabela */
+}
+
+table th, table td {
+    border: 1px solid #2196F3; /* Borda azul ao redor das células da tabela */
+    padding: 10px; /* Espaçamento interno das células */
+    text-align: center; /* Alinha o conteúdo das células ao centro */
+}
+
+table th {
+    background-color: #2196F3; /* Cor de fundo azul para o cabeçalho da tabela */
+    color: white; /* Texto branco no cabeçalho */
+}
+
+table td {
+    background-color: #f9f9f9; /* Cor de fundo suave nas células da tabela */
+}
+
