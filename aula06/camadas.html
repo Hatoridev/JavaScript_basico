@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definindo o charset e a meta tag para tornar a página responsiva -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Aula06 - Camadas</title>
+
+    <!-- Vinculando o arquivo CSS para a estilização da página -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Exemplo de Manipulação de Camadas em JavaScript</h1>
+    </header>
+
+    <!-- Container para o conteúdo principal -->
+    <main>
+        <!-- Área da lâmpada com a imagem que mudará conforme a interação -->
+        <div id="lampada-container" class="layer">
+            <img id="lampada" src="https://images.app.goo.gl/nx1yK6txBFefLmgSA" alt="Lampada" width="200">
+        </div>
+
+        <!-- Botão para interagir e acionar a lâmpada -->
+        <button onclick="ligar()">Ligar Lâmpada</button>
+
+        <!-- Campo para inserir o nome do usuário -->
+        <p>Nome do usuário: <strong id="nome-usuario"></strong></p>
+    </main>
+
+    <!-- Vinculando o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
