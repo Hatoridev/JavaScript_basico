@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definindo o charset e a visualização responsiva da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Poltronas com Callback</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Seleção de Poltronas</h1>
+        <!-- Instrução sobre como selecionar o assunto e as poltronas -->
+        <p>Escolha o assunto e depois selecione as poltronas. Use o callback para interação!</p>
+    </header>
+
+    <!-- Corpo principal da página -->
+    <main>
+        <section class="container">
+            <!-- Título para escolher o assunto -->
+            <h2>Escolha seu assunto</h2>
+            <!-- Menu de seleção de assunto -->
+            <select id="assuntoSelect">
+                <option value="tecnologia">Tecnologia</option>
+                <option value="programacao">Programação</option>
+                <option value="musica">Música</option>
+                <option value="cinema">Cinema</option>
+            </select>
+
+            <!-- Botão que chama a função para selecionar a poltrona -->
+            <button onclick="selecionarPoltronaCallback()">Selecionar Poltrona</button>
+
+            <!-- Título para as poltronas disponíveis -->
+            <h3>Poltronas Disponíveis</h3>
+            <!-- Div onde as poltronas serão exibidas -->
+            <div id="poltronas"></div>
+        </section>
+    </main>
+
+    <!-- Inclusão do arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+

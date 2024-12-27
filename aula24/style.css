@@ -1,0 +1,76 @@
+/* Estilo base para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para o container principal onde o conteúdo é exibido */
+.container {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo para o título das poltronas */
+h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Estilo para a área onde as poltronas são exibidas */
+#poltronas {
+    margin-top: 20px;
+}
+
+/* Estilo para cada poltrona */
+.poltrona {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Estilo quando a poltrona é marcada como ocupada */
+.poltrona.marcada {
+    background-color: #28a745;
+}
+
