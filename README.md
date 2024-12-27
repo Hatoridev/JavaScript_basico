@@ -1,4 +1,4 @@
-# JavaScript_basico
+# JavaScript_basic
 
 Repository with small examples introducing the programming language and web development in JavaScript, basic level.
 
