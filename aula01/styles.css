@@ -1,0 +1,33 @@
+/* Define o estilo global do corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  background-color: #f0f0f5; /* Cor de fundo clara */
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o padding padrão */
+  display: flex; /* Habilita o modelo de flexbox */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  height: 100vh; /* Define a altura como 100% da janela de visualização */
+}
+
+/* Estiliza o contêiner principal */
+#container {
+  text-align: center; /* Centraliza o texto */
+  background: #ffffff; /* Define o fundo branco */
+  border: 2px solid #cccccc; /* Adiciona uma borda cinza */
+  padding: 20px; /* Adiciona espaçamento interno */
+  border-radius: 10px; /* Arredonda os cantos */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+}
+
+/* Estiliza o título */
+h1 {
+  color: #3333cc; /* Define a cor do texto como azul escuro */
+}
+
+/* Estiliza o parágrafo */
+p {
+  color: #666666; /* Define a cor do texto como cinza */
+  font-size: 18px; /* Define o tamanho da fonte */
+}
+
