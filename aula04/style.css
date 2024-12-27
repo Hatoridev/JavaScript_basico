@@ -1,0 +1,24 @@
+/* Estilo geral do corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Fonte utilizada */
+  background-color: #000; /* Cor de fundo preta */
+  color: #fff; /* Cor do texto branca */
+  text-align: center; /* Centraliza o texto na tela */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo do contêiner que envolve todo o conteúdo */
+#container {
+  margin: 20px auto; /* Espaçamento e centralização do conteúdo */
+  width: 80%; /* Largura do contêiner */
+  max-width: 600px; /* Largura máxima */
+}
+
+/* Estilo da div que exibe os resultados */
+#resultados {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+
