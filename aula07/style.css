@@ -1,0 +1,43 @@
+/* Resetando as margens e o padding de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o body da página */
+body {
+    font-family: Arial, sans-serif; /* Definindo a fonte da página */
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhando o texto no centro */
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto em branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Borda arredondada */
+}
+
+/* Estilizando o subtítulo */
+h2 {
+    margin-top: 30px; /* Adicionando margem superior */
+}
+
+/* Estilizando a seção de resultados */
+#resultados {
+    margin-top: 20px; /* Adicionando margem superior */
+    background-color: white; /* Fundo branco */
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilizando os parágrafos de resultados */
+p {
+    margin: 10px 0; /* Adicionando margem em cima e embaixo */
+}
+
