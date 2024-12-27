@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres para o documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a página para dispositivos móveis -->
+    <title>Estrutura Condicional IF</title> <!-- Título da página no navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Estrutura Condicional IF em JavaScript</h1> <!-- Título principal da página -->
+        <p>Insira um número e veja se ele é positivo, negativo ou zero!</p>
+    </header>
+
+    <!-- Formulário para inserção de número e exibição do resultado -->
+    <main>
+        <div class="input-container">
+            <label for="numero">Digite um número:</label> <!-- Texto para o campo de entrada -->
+            <input type="number" id="numero" placeholder="Digite um número" /> <!-- Campo para o usuário digitar um número -->
+            <button onclick="verificarNumero()">Verificar</button> <!-- Botão que chama a função 'verificarNumero()' quando clicado -->
+        </div>
+
+        <!-- Exibição do resultado -->
+        <div id="resultado" class="resultado">
+            <!-- O resultado será exibido aqui -->
+        </div>
+    </main>
+
+    <!-- Inclui o arquivo JavaScript com a lógica de estrutura condicional -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
