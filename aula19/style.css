@@ -1,0 +1,44 @@
+/* Resetando margens e padding para todos os elementos para um layout mais consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Definindo que o padding e margin não afetem o tamanho dos elementos */
+}
+
+/* Estilos gerais do corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Definindo a fonte padrão */
+    background-color: #f1f1f1; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Alinhamento de texto ao centro */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo do cabeçalho, destacando a área com fundo verde */
+header {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo da seção onde o conteúdo será mostrado */
+.container {
+    width: 80%; /* Largura da seção */
+    margin: 20px auto; /* Centraliza a seção na página */
+    padding: 20px; /* Espaçamento interno */
+    background-color: white; /* Cor de fundo branca */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor da seção */
+}
+
+/* Estilo para a área onde os resultados serão exibidos */
+#resultado {
+    margin-top: 20px; /* Espaço superior */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixando o texto em negrito */
+    background-color: #f9f9f9; /* Cor de fundo bem clara */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
