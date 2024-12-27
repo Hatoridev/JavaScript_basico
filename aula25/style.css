@@ -1,0 +1,43 @@
+/* Estilo básico de layout para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para cabeçalho */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Efeito de hover nos botões */
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo para as seções */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #007BFF;
+}
+

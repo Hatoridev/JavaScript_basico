@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definindo o charset e a visualização responsiva da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos, DOM0, DOM2 e BOM</title>
+    <!-- Estilo básico da página -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Eventos, DOM0, DOM2 e BOM</h1>
+        <p>Aprenda como eventos funcionam no JavaScript com diferentes tipos de interação com o HTML, DOM e BOM.</p>
+    </header>
+
+    <main>
+        <!-- Seção para o DOM0 -->
+        <section>
+            <h2>DOM0 - Manipulação de Eventos</h2>
+            <!-- Botão que chama uma função diretamente no atributo "onclick" -->
+            <button onclick="alert('Evento DOM0 acionado!')">Clique para DOM0</button>
+        </section>
+
+        <!-- Seção para o DOM2 -->
+        <section>
+            <h2>DOM2 - Manipulação de Eventos</h2>
+            <!-- Botão que chama uma função utilizando o método addEventListener -->
+            <button id="dom2Btn">Clique para DOM2</button>
+        </section>
+
+        <!-- Seção para o BOM -->
+        <section>
+            <h2>BOM - Objetos do Navegador</h2>
+            <!-- Botão que chama uma função que interage com o objeto BOM -->
+            <button id="openWindowBtn">Abrir nova janela</button>
+            <button id="getLocationBtn">Obter Localização</button>
+        </section>
+
+        <!-- Tabela para mostrar as informações do navegador (BOM) -->
+        <section>
+            <h3>Informações do Navegador</h3>
+            <p id="browserInfo">Clique no botão abaixo para obter informações sobre o navegador.</p>
+            <button onclick="getBrowserInfo()">Obter Informações</button>
+        </section>
+    </main>
+
+    <!-- Inclusão do arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
