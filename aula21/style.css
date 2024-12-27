@@ -1,0 +1,66 @@
+/* Resetando margens e padding para todos os elementos para um layout mais consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garantindo que o padding e margin não afetem o tamanho do elemento */
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Definindo a fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centralizando o texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: white; /* Cor do texto branca */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo da seção principal */
+.container {
+    width: 80%; /* Definindo a largura da seção */
+    margin: 20px auto; /* Centralizando a seção */
+    padding: 20px; /* Espaçamento interno */
+    background-color: white; /* Cor de fundo branca */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+}
+
+/* Estilo dos campos de input */
+input[type="text"] {
+    width: 250px; /* Definindo a largura do campo de texto */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Espaçamento acima e abaixo */
+    border: 1px solid #ccc; /* Cor da borda */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo do botão */
+button {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Mostra o cursor de clique */
+}
+
+/* Estilo para a exibição do resultado */
+p {
+    margin-top: 20px; /* Espaço acima do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilo para mostrar os resultados de sucesso ou erro */
+#resultado-email, #resultado-cpf {
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definindo a codificação de caracteres para UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Definindo o viewport para torná-lo responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página, que aparecerá na aba do navegador -->
+    <title>Validação e Formatação com Regular Expressions</title>
+    <!-- Incluindo o arquivo CSS para estilizar a página -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página com título e descrição -->
+    <header>
+        <h1>Validação e Formatação com Expressões Regulares (RegExp)</h1>
+        <p>Aprenda a validar e formatar dados usando expressões regulares em JavaScript.</p>
+    </header>
+
+    <main>
+        <!-- Seção principal onde o conteúdo será exibido -->
+        <section class="container">
+            <h2>Validação de E-mail</h2>
+            <label for="email">Digite seu e-mail:</label>
+            <input type="text" id="email" placeholder="exemplo@dominio.com">
+            <button onclick="validarEmail()">Validar E-mail</button>
+            <p id="resultado-email"></p> <!-- Exibição do resultado da validação do e-mail -->
+
+            <h2>Formatação de CPF</h2>
+            <label for="cpf">Digite seu CPF:</label>
+            <input type="text" id="cpf" placeholder="XXX.XXX.XXX-XX">
+            <button onclick="formatarCPF()">Formatar CPF</button>
+            <p id="resultado-cpf"></p> <!-- Exibição do resultado da formatação do CPF -->
+        </section>
+    </main>
+
+    <!-- Conectando o arquivo JavaScript que contém a lógica para validação e formatação -->
+    <script src="script.js"></script>
+</body>
+</html>
+
