@@ -1,0 +1,41 @@
+/* Estilos gerais para a página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #2196F3; /* Cor de fundo azul */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Estilo da seção de conteúdo */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para a exibição dos objetos */
+#objetos {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
