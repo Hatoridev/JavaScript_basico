@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definindo o conjunto de caracteres para UTF-8 para garantir a exibição correta de caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Tornando o site responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data e Hora em UTC e Local</title>
+    <!-- Link para o arquivo CSS que vai estilizar a página -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página com título e explicação -->
+    <header>
+        <h1>Manipulação de Data e Hora</h1>
+        <p>Compreenda como manipular datas e horas utilizando a classe Date e como formatá-las tanto para UTC quanto para horário local.</p>
+    </header>
+
+    <main>
+        <!-- Seção principal da página, com botões para exibir data e hora -->
+        <section class="container">
+            <h2>Exibir Data e Hora</h2>
+            <!-- Botão que aciona a função para mostrar data e hora em UTC e local -->
+            <button onclick="mostrarData()">Mostrar Data e Hora</button>
+            <!-- Parágrafos onde a data e hora em UTC e local serão exibidas -->
+            <p id="resultado-utc"></p>
+            <p id="resultado-local"></p>
+        </section>
+    </main>
+
+    <!-- Inclusão do arquivo JavaScript para funcionalidade -->
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,52 @@
+/* Resetando estilos padrões de todas as tags */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centralizando o conteúdo na tela */
+    padding: 20px; /* Adicionando espaçamento interno */
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: white; /* Texto branco */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilizando a área principal da página */
+.container {
+    width: 80%; /* Definindo a largura do conteúdo */
+    margin: 20px auto; /* Centralizando o conteúdo */
+    padding: 20px; /* Espaçamento interno */
+    background-color: white; /* Cor de fundo branca */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombras para dar profundidade */
+}
+
+/* Estilizando os botões */
+button {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Texto branco */
+    padding: 10px 20px; /* Espaciamento interno */
+    border: none; /* Removendo bordas */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Indicando que o botão é clicável */
+    margin: 10px; /* Espaçamento entre botões */
+}
+
+/* Estilizando os parágrafos */
+p {
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixando o texto em negrito */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
