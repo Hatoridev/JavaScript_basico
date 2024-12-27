@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizadores e Cookies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Temporizadores e Cookies</h1>
+        <p>Este exemplo demonstra o uso de temporizadores e cookies com JavaScript.</p>
+    </header>
+
+    <main>
+        <!-- Seção para temporizadores -->
+        <section>
+            <h2>Temporizadores</h2>
+            <button id="startTimerBtn">Iniciar Temporizador</button>
+            <button id="stopTimerBtn">Parar Temporizador</button>
+            <p id="timerDisplay">0</p>
+        </section>
+
+        <!-- Seção para Cookies -->
+        <section>
+            <h2>Cookies</h2>
+            <input type="text" id="cookieName" placeholder="Nome do Cookie">
+            <input type="text" id="cookieValue" placeholder="Valor do Cookie">
+            <button onclick="setCookie()">Salvar Cookie</button>
+            <button onclick="getCookie()">Obter Cookie</button>
+            <button onclick="deleteCookie()">Deletar Cookie</button>
+            <p id="cookieResult"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
