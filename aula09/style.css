@@ -1,0 +1,103 @@
+/* Reseta a margem e o preenchimento de todos os elementos para garantir consistência no layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Definindo a fonte para Arial */
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor do texto em cinza escuro */
+    text-align: center; /* Alinha o conteúdo ao centro */
+    padding: 20px; /* Espaçamento interno da página */
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto em branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Cantos arredondados */
+}
+
+/* Estilo do contêiner do formulário */
+.form-container {
+    display: inline-block; /* Coloca o formulário ao lado da tabela */
+    text-align: left; /* Alinha o texto à esquerda dentro do contêiner */
+    background-color: white; /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra leve */
+    margin-right: 50px; /* Espaçamento à direita para o layout */
+}
+
+/* Estilo para os campos de entrada de dados */
+input[type="number"], input[type="text"] {
+    padding: 8px; /* Espaçamento interno */
+    margin: 5px 0; /* Margem acima e abaixo */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Cantos arredondados */
+    width: 200px; /* Largura fixa dos campos */
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto em branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar por cima */
+}
+
+/* Efeito visual ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #45a049; /* Muda a cor de fundo quando o mouse passa sobre o botão */
+}
+
+/* Estilo para a tabela dos níveis de IMC */
+.tabela-imc {
+    display: inline-block; /* Coloca a tabela ao lado do formulário */
+    vertical-align: top; /* Alinha a tabela ao topo do contêiner */
+    text-align: left; /* Alinha o texto à esquerda */
+    background-color: white; /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra leve */
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%; /* A tabela ocupa toda a largura disponível */
+    border-collapse: collapse; /* Remove os espaços entre as células */
+}
+
+/* Estilo para a borda da tabela e células */
+table, th, td {
+    border: 1px solid #ccc; /* Borda cinza clara para a tabela e células */
+}
+
+/* Estilo das células da tabela */
+th, td {
+    padding: 10px; /* Espaçamento interno nas células */
+    text-align: center; /* Alinha o conteúdo das células ao centro */
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+    background-color: #4CAF50; /* Cor de fundo verde para o cabeçalho */
+    color: white; /* Texto em branco no cabeçalho */
+}
+
+/* Estilo para as células da tabela */
+td {
+    background-color: #f9f9f9; /* Cor de fundo clara para as células */
+}
+
+/* Efeito visual para as células da tabela ao passar o mouse */
+td:hover {
+    background-color: #e2e2e2; /* Muda a cor da célula ao passar o mouse */
+}
+
