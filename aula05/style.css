@@ -1,0 +1,53 @@
+/* Resetando margens e paddings para garantir um layout consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Definindo a fonte da página */
+    background-color: #f7f7f7; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Estilo para o título */
+h1 {
+    font-size: 2em; /* Tamanho da fonte */
+    text-transform: uppercase; /* Tornando o texto maiúsculo */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    background-color: white; /* Fundo branco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras sutis para o conteúdo */
+    margin-top: 20px;
+}
+
+/* Estilo das mensagens de resultados */
+p {
+    font-size: 1.2em;
+    color: #555; /* Texto cinza para as mensagens */
+    margin-bottom: 15px;
+}
+
+/* Estilo das chaves de código */
+strong {
+    color: #333; /* Cor mais escura para o texto em negrito */
+    font-weight: bold;
+}
+
