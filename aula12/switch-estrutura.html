@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Define a codificação de caracteres para o HTML -->
+    <meta charset="UTF-8">
+    <!-- Define a visualização para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Condicional Switch - Linguagens e Bancos de Dados</title>
+    <!-- Conecta o arquivo de estilo CSS para a formatação visual -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho principal da página -->
+    <header>
+        <!-- Título principal da página -->
+        <h1>Estrutura Condicional Switch em JavaScript</h1>
+        <!-- Descrição do objetivo da página -->
+        <p>Selecione uma linguagem de programação e depois um banco de dados para verificar a relação entre eles.</p>
+    </header>
+
+    <!-- Corpo principal da página com os formulários -->
+    <main>
+        <!-- Caixa de seleção para a escolha da linguagem de programação -->
+        <div class="input-container">
+            <label for="linguagem">Selecione uma Linguagem de Programação:</label>
+            <!-- Menu de seleção com opções de linguagens -->
+            <select id="linguagem">
+                <option value="java">Java</option>
+                <option value="c">C</option>
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+            </select>
+        </div>
+
+        <!-- Caixa de seleção para a escolha do banco de dados -->
+        <div class="input-container">
+            <label for="banco">Selecione um Banco de Dados:</label>
+            <!-- Menu de seleção com opções de bancos de dados -->
+            <select id="banco">
+                <option value="sqlserver">SQL Server</option>
+                <option value="postgresql">PostgreSQL</option>
+                <option value="oracle">Oracle</option>
+                <option value="mysql">MySQL</option>
+            </select>
+        </div>
+
+        <!-- Botão que aciona a função para verificar a combinação de tecnologias -->
+        <button onclick="verificarTecnologia()">Verificar</button>
+
+        <!-- Div onde o resultado da verificação será exibido -->
+        <div id="resultado" class="resultado"></div>
+    </main>
+
+    <!-- Inclui o arquivo JavaScript que contém a lógica de verificação -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,81 @@
+/* Reseta margens e preenchimento de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que o tamanho dos elementos seja calculado com base nas bordas */
+}
+
+/* Estilo básico para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão para todo o conteúdo */
+    background-color: #f4f4f9; /* Cor de fundo clara para a página */
+    text-align: center; /* Centraliza o conteúdo na página */
+    padding: 20px; /* Adiciona um espaço ao redor de todos os conteúdos */
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    background-color: #2196F3; /* Cor de fundo azul para o cabeçalho */
+    color: white; /* Texto branco para contraste */
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+    border-radius: 8px; /* Cantos arredondados no cabeçalho */
+}
+
+/* Caixa de entrada de seleção (formulário) */
+.input-container {
+    margin-top: 30px; /* Espaço acima de cada caixa de entrada */
+    padding: 20px; /* Espaço interno da caixa */
+    background-color: #ffffff; /* Cor de fundo branca para o formulário */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: inline-block; /* Faz o formulário ocupar apenas o espaço necessário */
+}
+
+/* Estilo para campos de seleção e botão */
+select, button {
+    padding: 10px 20px; /* Preenchimento dos campos */
+    font-size: 16px; /* Tamanho da fonte dos campos */
+    border-radius: 4px; /* Bordas arredondadas */
+    border: 2px solid #2196F3; /* Borda azul */
+    cursor: pointer; /* Indica que o campo é clicável */
+    margin-top: 10px; /* Margem superior entre os campos */
+}
+
+/* Efeito visual no botão quando o mouse passa por cima */
+button:hover {
+    background-color: #1976D2; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilo para o campo de seleção */
+select {
+    width: 220px; /* Largura dos campos de seleção */
+}
+
+/* Estilo para o resultado da verificação */
+.resultado {
+    margin-top: 30px; /* Espaço acima do resultado */
+    padding: 15px; /* Preenchimento do resultado */
+    border-radius: 8px; /* Cantos arredondados */
+    font-size: 20px; /* Tamanho grande da fonte */
+    font-weight: bold; /* Texto em negrito */
+    display: inline-block; /* Exibe o resultado de forma compacta */
+}
+
+/* Estilo para quando o resultado é sobre a linguagem de programação */
+.linguagem {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Texto branco */
+}
+
+/* Estilo para quando o resultado é sobre o banco de dados */
+.banco {
+    background-color: #f44336; /* Cor de fundo vermelha */
+    color: white; /* Texto branco */
+}
+
+/* Estilo para resultados desconhecidos */
+.desconhecido {
+    background-color: #FFEB3B; /* Cor de fundo amarela */
+    color: #333; /* Texto escuro */
+}
+
