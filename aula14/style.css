@@ -1,0 +1,73 @@
+/* Estilo global para a página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Define a fonte padrão */
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    color: #333; /* Cor de texto escura */
+    text-align: center; /* Centraliza o conteúdo na tela */
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #2196F3; /* Cor de fundo azul */
+    color: white; /* Texto branco */
+    padding: 30px;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo para as seções de conteúdo */
+.container {
+    display: flex; /* Usamos flexbox para organizar os elementos lado a lado */
+    justify-content: space-around; /* Espaçamento entre os elementos */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilo da seção de loop */
+.loop-section {
+    width: 45%; /* Define a largura da seção */
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo branca */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo do botão */
+button {
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Texto branco */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    border: none; /* Remove a borda padrão */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor mais escura quando o botão é clicado */
+}
+
+/* Estilo do resultado exibido */
+.resultado {
+    margin-top: 20px; /* Espaçamento superior */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo da seção de explicação */
+.info-section {
+    width: 45%; /* Define a largura da seção */
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo branca */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
