@@ -154,8 +154,10 @@ Repository with small examples introducing the programming language and web deve
      http://<your-device-ip>:8000/file.html
      ```
 
-## Languages
+### Languages
 
-<div align="left">  
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" alt="HTML logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" alt="CSS logo" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="JavaScript logo" />
 </div>
